@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #393e46;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.card {
+  margin-top: 50px;
+  border: 5px solid #d65a31;
+  height: 100%;
+  width: 400px;
+}
+
+.card-title {
+  margin-top: 5px;
+}
+.card-body {
+  color: #eeeeee;
+  background-color: #393e46;
+}
+.img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+.btn {
+  cursor: pointer;
+  border: 0;
+  width: 100px;
+  -webkit-border-radius: 8px 0 8px 0;
+  -moz-border-radius: 8px 0 8px 0;
+  -ms-border-radius: 8px 0 8px 0;
+  -o-border-radius: 8px 0 8px 0;
+  border-radius: 8px 0 8px 0;
+  color: aliceblue;
+  margin-top: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.form-control {
+  width: 440px;
+}
+
+.form-label {
+  color: #eeeeee;
+}
+
+.added h2 {
+  text-align: center;
+}
+.added button {
+  margin: auto;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: center;
+}
